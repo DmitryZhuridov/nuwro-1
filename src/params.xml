@@ -215,13 +215,19 @@
     <description>Meson exchange charged current</description>
   </param>
   <param name="dyn_mec_nc" type="checkbox" ctype="bool" default="0">
-    <description>Meson exchange charged current</description>
+    <description>Meson exchange neutral current</description>
   </param>
   <param name="dyn_hip_la" type="checkbox" ctype="bool" default="0">
     <description>Lambda hiperon quasielastic production</description>
   </param>
   <param name="dyn_hip_si" type="checkbox" ctype="bool" default="0">
     <description>Sigma hiperon quasielastic production</description>
+  </param>
+  <param name="dyn_lep_cc" type="checkbox" ctype="bool" default="0">
+    <description>Neutrino-lepton charged current</description>
+  </param>
+  <param name="dyn_lep_nc" type="checkbox" ctype="bool" default="0">
+    <description>Neutrino-lepton neutral current</description>
   </param>
   <param name="dyn_e_el" type="checkbox" ctype="bool" default="0">
     <description>Elastic electron scattering</description>

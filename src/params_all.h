@@ -51,6 +51,8 @@ PARAM(bool,dyn_mec_cc,0)\
 PARAM(bool,dyn_mec_nc,0)\
 PARAM(bool,dyn_hip_la,0)\
 PARAM(bool,dyn_hip_si,0)\
+PARAM(bool,dyn_lep_cc,0)\
+PARAM(bool,dyn_lep_nc,0)\
 PARAM(bool,dyn_e_el,0)\
 PARAM(bool,dyn_e_spp,0)\
 PARAM(double,eel_theta_lab,90)\

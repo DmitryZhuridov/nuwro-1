@@ -118,6 +118,8 @@ inline void chooser::reset(params &p)
     if(p.dyn_mec_nc) proc.push_back(Dyn(9,"MECnc"));
     if(p.dyn_hip_la) proc.push_back(Dyn(10,"HIPla"));
     if(p.dyn_hip_si) proc.push_back(Dyn(11,"HIPsi"));
+    if(p.dyn_lep_cc) proc.push_back(Dyn(12,"LEPcc"));
+    if(p.dyn_lep_nc) proc.push_back(Dyn(13,"LEPnc"));
     
     if(p.dyn_e_el  ) proc.push_back(Dyn(20,"EEL  "));
     if(p.dyn_e_spp ) proc.push_back(Dyn(21,"ESPP "));
